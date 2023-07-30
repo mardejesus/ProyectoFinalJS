@@ -1,0 +1,84 @@
+body{
+    background-color: white;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.video-inicio{
+    margin-top: 50px;
+}
+
+.navbar{
+    position: fixed;
+    top: 0;
+    left: 0; 
+    width: 100%;
+    z-index: 1000;
+}
+
+.navbar, .nav-link{
+    background-color: black !important;
+}
+
+h1 a{
+    color: #6528F7 !important;
+    font-size: 1.5rem !important;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0px;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 1.5rem;
+}
+
+#btnTodo, #btnCamisetas,#btnMedias,#btnShorts,#btnBotines{
+    color: white !important;
+    font-size: 1rem !important;
+}
+
+#btnTodo:hover, #btnCamisetas:hover,#btnMedias:hover,#btnShorts:hover,#btnBotines:hover{
+    color: #6528F7 !important;
+}
+
+.btn-carrito{
+    color: white;
+    background-color: #6528F7;
+}
+
+.btn-carrito:hover{
+    color:#6528F7;
+    background-color: white;
+}
+
+#elementos-navbar{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+#tienda{
+    padding-top: 80px;
+}
+
+.tienda-barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+footer{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 80px;
+}
+
+#tienda-productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    justify-items: center;
+}
