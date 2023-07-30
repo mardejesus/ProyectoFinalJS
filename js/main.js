@@ -53,7 +53,9 @@ function mostrarCatalogo(array) {
 function agregarAlCarrito(element) { // agrega el producto al array productosEnCarrito, y al array en storage también.
   let prodAgregado = productosEnCarrito.find((e) => e.id == element.id)
   if (prodAgregado === undefined) {
-    productosEnCarrito.push(element);
+    element.cantidad=1
+    element.precioTotal = element.precio
+    productosEnCarrito.push(element)
   } else {
     prodAgregado.sumarUnidad();
   }
